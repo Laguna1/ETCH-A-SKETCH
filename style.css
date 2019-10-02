@@ -46,12 +46,17 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/*===== end reset style =====*/
+body{
+background: url(../ETCH-A-SKETCH/img/icon.jpg) no-repeat;
+background-size: cover;
+padding: 100px 0;
+}
 
 #container {
 	position: relative;
 	top: 30px;
-	outline:2px solid #000;
+	outline:20px solid #000;
 	font-size: 0;
 	margin:auto;
 	height:960px;
